@@ -1,0 +1,14 @@
+{
+  "name": "constitution",
+  "version": "1.0.0",
+  "description": "Return the text of the United States of America Constitution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "constitution"
+  ],
+  "author": "Daniel Raeder",
+  "license": "MIT"
+}

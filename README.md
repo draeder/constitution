@@ -1,2 +1,2 @@
-# constitution
- Return the text of the constitution
+# Constitution
+Return the text of the United States of America Constitution

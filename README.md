@@ -8,8 +8,6 @@ Return the text of the United States of America Constitution
 ```js
 const Constitution = require('constitution')
 
-let constitution = new Constitution()
-constitution.on('constitution', data => {
-  console.log(data)
-})
+const constitution = new Constitution
+console.log(constitution)
 ```

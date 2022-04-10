@@ -1,6 +1,6 @@
 {
   "name": "constitution",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return the text of the United States of America Constitution",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,13 @@
     "constitution"
   ],
   "author": "Daniel Raeder",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draeder/constitution.git"
+  },
+  "bugs": {
+    "url": "https://github.com/draeder/constitution/issues"
+  },
+  "homepage": "https://github.com/draeder/constitution#readme"
 }

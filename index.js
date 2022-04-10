@@ -1,7 +1,7 @@
 const fs = require('fs')
 const EventEmitter = require('events').EventEmitter
 
-let data = fs.readFileSync('constitution.json', 'utf8')
+let data = fs.readFileSync('node_modules/constitution/constitution.json', 'utf8')
 const Constitution = function(params){
   let constitution = this
   let events = new EventEmitter()
@@ -13,11 +13,11 @@ const Constitution = function(params){
   try {
     setTimeout(()=>{
       constitution.emit('constitution', data)
+      constitution.data = data
     }, 1)
   } catch (err) {
     throw new Error(err)
   }
-  return constitution
 }
 
 module.exports = Constitution
